@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel = "stylesheet" href = "style.css">
+    <title>GR Portafolio Web</title>
+</head>
+
+<body>
+    <!-- SECCION DE INICIO -->
+    <section id = "inicio">
+        <div class = "contenido">
+            <header>
+                <div class = "contenido-header">
+                    <h1>/GR/</h1>
+                    <nav id = "nav" class = "">
+                        <ul id = "links">
+                            <li><a href = "#inicio" class = "seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href = "#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href = "#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href = "#skills" onclick="seleccionar(this)">SKILLS</a></li>
+                            <li><a href = "#portafolio" onclick="seleccionar(this)">POTAFOLIO</a></li>
+                            <li><a href = "#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del Menu Responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de las Redes Sociales -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Guillermo Urrutia</span>, Ingeniero en Sistemas Computacionales</h2>
+                <p class="descripcion">Apasionado por el entendimiento lógico y programable de las tecnologias.
+                    <br>
+                    Fan de explorar y utilizar lo más recientes en avances tecnologicos para crear soluciones modernas, eficientes y elegantes.
+                    <br>
+                Admiro el diseño y la creatividad en los sistemas, sitios y aplicaciones web, 
+                buscando siempre la innovación en su funcionalidad y presentación.</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>    
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+        <img src="imagenes/foto.jpg" alt="">    
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, soy <span> Guillermo Urrutia</span></h2>
+                <h3>Ingeniero en Sistemas Computacionales</h3>
+                <p>
+                    Soy un profesional en la tecnología, la programación y el diseño, me encanta aprender y experimentar con nuevas tecnologías, 
+                    siempre buscando la forma de mejorar y optimizar los procesos de desarrollo de software.
+                    <br>
+                    Me considero una persona proactiva, responsable, comprometida y dedicada con mi trabajo, que encuentra la forma de mejorar y 
+                    optimizar los procesos de desarrollo de software de forma eficiente, moderna y elegante.
+                    <br>
+                    Con habilidades cruciales en el liderazgo y toma de desiciones en equipo,me desenvuelvo en compartir conocimientos y experiencias, siempre buscando la forma de mejorar y 
+                    optimizar los procesos de desarrollo de software.
+                </p>
+                <br>
+                <p>
+                    Además, la ciencia y la tecnología representan áreas de profundo interés para mí, con el propósito de completar una maestría y un doctorado en campos especializados de la física.
+                    Me proyecto como un empresario visionario y filántropo, impulsando iniciativas en las ciencias, ingenierías e innovación tecnologica. 
+                    Mi enfoque está en la inversión en nuevas tecnologías y en la creación de asociaciones que fomenten el desarrollo y el conocimiento en estas áreas.
+                </p>
+                <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphics</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    Diseño y desarrollo de sitios web modernos, eficientes y elegantes, 
+                    con las últimas herramientas y tendencias en diseño web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphics</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    Diseño y desarrollo de sitios web modernos, eficientes y elegantes, 
+                    con las últimas herramientas y tendencias en diseño web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphics</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    Diseño y desarrollo de sitios web modernos, eficientes y elegantes, 
+                    con las últimas herramientas y tendencias en diseño web.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphics</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    Diseño y desarrollo de sitios web modernos, eficientes y elegantes, 
+                    con las últimas herramientas y tendencias en diseño web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphics</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    Diseño y desarrollo de sitios web modernos, eficientes y elegantes, 
+                    con las últimas herramientas y tendencias en diseño web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphics</li>
+                    <li>SEO</li>
+                </ul>
+                <p>
+                    Diseño y desarrollo de sitios web modernos, eficientes y elegantes, 
+                    con las últimas herramientas y tendencias en diseño web.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos SQL</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class=""></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Illustrator</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="ai" class=""></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/SoftwareDeveloper.jpg" alt="">
+                <div class="info">
+                    <h4>Desarrollo de Software</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/AIPrograming.jpg" alt="">
+                <div class="info">
+                    <h4>Inteligencia Artificial</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/Html5&Css3.jpg" alt="">
+                <div class="info">
+                    <h4>Crecion de Sistemas Web</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/WebDesign.png" alt="">
+                <div class="info">
+                    <h4>Diseño Web</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/UXUIDesign.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño UX/UI</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/ResponsiveDesign.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño Responsivo</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/GraphicDesign.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño Grafico</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/CloudArchitecture.jpg" alt="">
+                <div class="info">
+                    <h4>Arquitectura Cloud</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/DBServerAdministrator.jpg" alt="">
+                <div class="info">
+                    <h4>Administrador Servidor Base de Datos</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/ComputerAssembly.jpg" alt="">
+                <div class="info">
+                    <h4>Armado y Mantenimiento de Computadoras</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/DeveloperAPPs.jpg" alt="">
+                <div class="info">
+                    <h4>Desarrollo de Aplicaciones</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/DatosRedes.png" alt="">
+                <div class="info">
+                    <h4>Analista de Datos y Redes de Computadora</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/OfimaticService.jpg" alt="">
+                <div class="info">
+                    <h4>Heraamientas de Ofimatica</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/OperatingSystem.jpg" alt="">
+                <div class="info">
+                    <h4>Operador y Desarrollo de S.O</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagenes/Cybersecurity.jpg" alt="">
+                <div class="info">
+                    <h4>Ciber Seguridad</h4>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame Ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Correo Electronico" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu Mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservado para Guillermo Urrutia Urbina - 2025 </p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
